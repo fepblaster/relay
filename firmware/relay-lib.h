@@ -14,6 +14,7 @@ public:
   void on();    // Turns relay on 
   void off();   // Turns relay off
   void toggle();  // Toggles state of relay between on and off
+  void pulse();  // Pulse Relay for 1 sec
   int state();    // returns state of relay (LOW/0/off or HIGH/1/on) 
   int isRelayOn();   // Returns TRUE if the relay is on , false otherwise 
   int isRelayOff();  // Returns TRUE if the relay is off, false otherwise 
